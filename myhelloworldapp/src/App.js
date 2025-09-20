@@ -3,7 +3,7 @@ import "./App.css";
 import "./styles.css";
 
 import { useState } from 'react';
-
+//main board component that renders the 9 squares
 export default function Board() {
   const[xIsnext,setXIsnext] = useState(true);
   const[squares, setSquares] = useState(Array(9).fill(null));
